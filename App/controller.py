@@ -91,7 +91,8 @@ def firstBook(control):
     Devuelve el primer libro del catalogo
     """
     # TODO: Mods Est-3 en el Lab 2
-    pass
+    return model.firstBook(control["model"])
+    
 
 
 def lastBook(control):
@@ -99,4 +100,4 @@ def lastBook(control):
     Devuelve el ultimo libro del catalogo
     """
     # TODO: Mods Est-3 en el Lab 2
-    pass
+    return model.lastBook(control["model"])
